@@ -75,8 +75,60 @@
             <td>Low Stock</td>
             <td><button>Add to Cart</button></td>
         </tr>
-
     </table>
+
+    <h3>Create New Account</h3>
+
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">First Name:</label>
+        <input type="text" name="name" id="name" required>
+
+        <label for="lastname">Last Name:</label>
+        <input type="text" name="name" id="lastname" required>
+
+        <label for="date">Date of Birth:</label>
+        <input type="date" name="date" id="date" required>
+
+        <label for="">Gender:</label>
+        <label for="male">Male:</label>
+        <input type="radio" name="Gender" id="male" required>
+
+        <label for="female">Female:</label>
+        <input type="radio" name="Gender" id="female" required>
+    </fieldset>
+
+    <fieldset>
+        <legend>Account Details</legend>
+        <label for="email">Email:</label>
+        <input type="email" name="male" id="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+
+        <label for="number">Phone Number:</label>
+        <input type="number" name="number" id="number" required>
+
+        <label for="subscribe">Subscribe to Newsletter:</label>
+        <input type="checkbox" name="checkbox" id="subscribe" required>
+    </fieldset>
+
+    <fieldset>
+        <legend>Shipping Address</legend>
+        <label for="address">Street Address:</label>
+        <textarea name="textarea" id="address"></textarea>
+
+        <label for="country">Country:</label>
+        <select  name="Country" id="country">
+            <option value="" disabled selected>-- Select Country --</option>
+            <option value="">Pakistan</option>
+            <option value="">United State</option>
+            <option value="">United Kingdom</option>
+            <option value="">Canada</option>
+        </select>
+    </fieldset>
+
+    
 
 </body>
 
